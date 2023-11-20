@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 import classes from './main-header.module.css';
 
@@ -11,7 +11,7 @@ function MainHeader() {
       <nav className={classes.navigation}>
         <ul>
           <li>
-            <Link href='/events'>Brose All Events</Link>
+            <Link href='/events'>Browse All Events</Link>
           </li>
         </ul>
       </nav>
